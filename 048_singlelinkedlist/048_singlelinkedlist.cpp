@@ -92,6 +92,15 @@ bool listEmpty() {
 }
 
 void traverse() {
+    if (listEmpty()) {
+        cout << "List Kosong" << endl;
+        system("pause");
+        system("cls");
+        return;
+    }
+    else {
+        Node* currentNode = START;
+        while (currentNode != NULL) {
 
 }
 
