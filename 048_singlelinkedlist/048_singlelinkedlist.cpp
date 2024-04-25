@@ -135,7 +135,10 @@ int main()
     int pilihan;
     do
     {
+        try
+        {
 
+        }
     }
 
 }
